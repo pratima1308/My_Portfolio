@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+  caret-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+header {
+  background-color: #31493c;
+  color: rgb(122, 158, 126);
+}
+
+.nav-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px 10%;
+  font-size: larger;
+  background: rgb(122, 158, 126);
+  border-radius: 10px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  /* align-items: center; */
+  justify-content: flex-end;
+}
+.social-icons a {
+  color: #29294a;
+}
+
+/****************** Nav ****************/
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: #001a23;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+nav ul li {
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #061298;
+  background-color: #bec5ad;
+  /* background-color: #4643fd; */
+  border-radius: 5px;
+  padding: 6px;
+}
+
+nav ul li a {
+  color: #0e528e;
+}
+
+/****************** Section_1 ****************/
+
+.header-text {
+  padding: 10%;
+  /* padding-bottom: 5%; */
+  font-size: 40px;
+  /* color: #1d8c98; */
+  color: #e8f1f2;
+  text-align: center;
+}
+
+h1 {
+  color: #001a23;
+  font-weight: 900;
+  /* text-shadow:1px 1px #06164a; */
+}
+
+span {
+  color: #b3efb2;
+}
+
+.btn {
+  padding: 10px 10px;
+  background-color: #001a23;
+  /* color: white; */
+  text-align: center;
+  margin: 45px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+button a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+button a::after {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+/* about */
+
+#about .container {
+  padding-top: 20%;
+  padding: 0 10%;
+}
+
+h1.about {
+  font-size: 60px;
+}
+
+.abt p {
+  padding: 20px 15%;
+  line-height: 1.8;
+  letter-spacing: 1.5px;
+}
+
+/* experience */
+
+#experience .container {
+  padding: 40px 10%;
+  padding-top: 25px;
+}
+
+h1.experience {
+  font-size: 60px;
+}
+
+.exp li {
+  font-family: cursive;
+}
+
+.Exp p {
+  padding: 10px 15%;
+  line-height: 1.8;
+  letter-spacing: 1.5px;
+}
+
+.exp {
+  flex-direction: column;
+  align-items: start;
+  padding-left: 15%;
+  padding-top: 20px;
+}
+
+li span {
+  display: flex;
+  padding-bottom: 5px;
+  font-size: 22px;
+}
+
+ul.exp li a {
+  color: #e8f1f2;
+}
+
+ul.exp li a:hover {
+  color: #79dae4;
+}
+
+ul.exp li a::after {
+  color: #5cb1ba;
+}
